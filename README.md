@@ -1,7 +1,7 @@
 To use the script:
 
 ```
-git checkout repo
+git clone https://github.com/bknarendra/fb_photo_friend_finder.git
 cd fb_photo_friend_finder
 bundle install
 ```
