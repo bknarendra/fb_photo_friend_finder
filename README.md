@@ -9,6 +9,8 @@ https://www.facebook.com/dialog/oauth?client_id=540692569446124&redirect_uri=htt
 > Copy the response which contains the access token. Response will be something like this
 https://www.facebook.com/connect/login_success.html#access_token={access_token}&expires_in=4312423
 
+(Note: I found that my app is still under review and so it doesn't have to authority to ask for publish_actions and user_photos permissions. So you can create your own app or use the graph API explorer access token. You can use any app's access token as long as it has the publish_actions and user_photos permissions.)
+
 Copy and paste the access token in the script.
 
 Next you need the FB cookies.
